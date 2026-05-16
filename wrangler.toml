@@ -1,0 +1,11 @@
+name = "teluyo-form"
+main = "src/index.js"
+compatibility_date = "2024-02-20"
+
+[vars]
+SENDER_EMAIL = "dev@webtuyo.com" # Must be configured in CF Email Routing
+RECIPIENT_EMAIL = "dev@webtuyo.com"
+
+# Grant permission to send emails
+[[send_email]]
+name = "EMAIL_SENDER"
